@@ -56,3 +56,6 @@ This repo contains my solution for fcc bonfire series and project.
  * Map the Debris 
  * Pairwise
  
+
+### Front-end Projects
+ * Tribute-Page
