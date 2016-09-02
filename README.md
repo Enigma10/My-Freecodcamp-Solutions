@@ -17,6 +17,9 @@ This repo contains my solution for fcc bonfire series and project.
  * Seek and Destroy
  * Where do I belong
  * Caesars Cipher
+
+
+
 ### Intermidate Algorithm script(Completed)
  * Sum All Numbers in a Range 
  * Diff Two Arrays  
@@ -39,6 +42,9 @@ This repo contains my solution for fcc bonfire series and project.
  * Binary Agents
  * Everything Be True
  * Arguments Optional 
+
+
+
 ### Advanced Algorithm script(Completed)
  * Validate US Telephone Numbers 
  * Symmetric Difference  
