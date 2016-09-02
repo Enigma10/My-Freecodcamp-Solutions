@@ -1,10 +1,8 @@
-![](https://s3.amazonaws.com/freecodecamp/wide-social-banner.png)
 # My-Freecodecamp-Solutions
 This repo contains my solution for fcc bonfire series and project.
 =======================
 
 ## Basic Algorithm script(Completed)
-=======================
  * Reverse a string 
  * Factorialize a Number
  * Check for Palindromes
