@@ -1,0 +1,38 @@
+.wrapper{
+  margin:8% ;
+}
+.wrapper .heading{
+  text-align:center;
+  font-size:2em;
+}
+.wrapper .heading span{
+  text-align:center;
+  font-size:0.8em;
+}
+
+.timeline{
+  margin:40px;
+  text-alien:center;
+  font-size:2em;
+ }
+.timeline ul{
+  margin-left:60px;
+  font-size:0.6em;
+ }
+.hr{
+  margin-top:40px;
+}
+.Qoute{
+  margin:40px;
+  text-alien:center;
+  font-size:0.6em;
+}
+.Findmore{
+  font-size:1.5em
+} 
+.thumbnail{
+ margin-left:14%;
+ margin-right:14%; 
+  
+}
+
