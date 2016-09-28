@@ -59,3 +59,4 @@ This repo contains my solution for fcc bonfire series and project.
 
 ### Front-end Projects
  * Tribute-Page
+ * Portfolio-Page
