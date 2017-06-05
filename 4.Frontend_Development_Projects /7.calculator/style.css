@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    background-image: -moz-radial-gradient(center, circle closest-corner, #353863 0%, #000 100%);
+  	background-image: -o-radial-gradient(center, circle closest-corner, #353863 0%, #000 100%);
+  	background-image: -webkit-radial-gradient(center, circle closest-corner, #353863 0%, #000 100%);
+  	-webkit-user-select:none;
+  	-moz-user-select:none;
+  	-ms-user-select:none;
+  	-o-user-select:none;
+  	user-select:none;
+}
+
+.main-wrapper {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+
+
+}
+
+.calculator {
+    width: 300px;
+    height: 320px;
+    /*border: 5px solid white;*/
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+
+}
+.keyboard{
+  width: 300px;
+  height: 300px;
+
+}
+
+.key-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calculator-button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 50px;
+    line-height: 1rem;
+    height: 10vh;
+    font-size: 1.5rem;
+    font-weight: 300;
+    cursor: pointer;
+    padding: 15px 0;
+    min-width: 25%;
+    border:1px solid #333;
+  	border-radius:6px;
+  	color:#CCC;
+  	font:24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  	line-height: 45px;
+  	-moz-box-shadow:inset 0 0 10px #666,
+  	inset 0px 1px #BCD6FF, 0 1px 1px #323643;
+  	-webkit-box-shadow:inset 0 0 10px #666,
+  	inset 0px 1px #BCD6FF, 0 1px 1px #323643;
+  	box-shadow:inset 0 0 10px #666,
+  	inset 0px 1px #BCD6FF, 0 1px 1px #323643;
+  	background:#333;
+    text-align: center;
+
+    transition: .1s ease-in;
+}
+
+.operator {
+    font-size: 2.6rem;
+}
+
+.operator.small {
+    font-size: 1.5rem;
+}
+
+.calculator-button:hover {
+    background-color: #f5f5f5;
+}
+
+.calculator-button:first-child {
+    border-left: none;
+}
+
+.calculator-button:last-child {
+    border-right: none;
+}
+
+.calculator-button.orange {
+  background-color: #036;
+  border:1px solid #036;
+  -moz-box-shadow:inset 0 0 10px #069,
+  inset 0px 1px #BCD6FF, 0 1px 1px #323643;
+  -webkit-box-shadow:inset 0 0 10px #069,
+  inset 0px 1px #BCD6FF, 0 1px 1px #323643;
+  box-shadow:inset 0 0 10px #069,
+  inset 0px 1px #BCD6FF, 0 1px 1px #323643;
+}
+
+.calculator-button.orange:hover {
+    background-color: #f5f5f5;
+}
+
+.last-row .calculator-button {
+    border-bottom: none;
+}
+
+.fill-button {
+    cursor: default;
+}
+
+.fill-button:hover {
+    background-color: #e0e0e0;
+}
+
+#display {
+    font-size: 1.3rem;
+    padding: 5px 10px;
+    text-align: right;
+    background-color: #222;
+    color: #fff;
+    height: 15vh;
+    width: 100%;
+   
+    border-radius:6px;
+    border:1px solid #6B6B6B;
+    font-size:26px;
+    font:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    -moz-box-shadow:inset 0 0 10px #333,
+    inset 0 1px 1px #0A0B0D, 0px 1px #E6E6E6;
+    -webkit-box-shadow:inset 0 0 10px #333,
+    inset 0 1px 1px #0A0B0D, 0px 1px #E6E6E6;
+    box-shadow:inset 0 0 10px #333,
+    inset 0 1px 1px #0A0B0D, 0px 1px #E6E6E6;
+}
+
+
+.footer{
+  width: 450;
+  text-align: center;
+  margin: 15px auto 30 auto;
+  font-size: 0.85em;
+  color: #fff;
+  
+}
+.footer a{
+
+    font-weight: 500;
+    text-decoration: none;
+    color: #858585;
+}

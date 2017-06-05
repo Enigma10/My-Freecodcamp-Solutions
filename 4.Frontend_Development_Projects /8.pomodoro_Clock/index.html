@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Norrington</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <h1>FreeCodeCamp</h1>
+    
+        <div class="main-ui">
+            <div class="timer-display">
+                <p id="timer">25:00</p>
+                <p id="message-display">Click on play to start!</p>
+            </div>
+            <br />
+            
+            <div class="timer-controls">
+                <i class="fa fa-lg fa-play" id="start"></i>
+                <i class="fa fa-lg fa-pause" id="pause"></i>
+                <i class="fa fa-lg fa-ban" id="reset"></i>
+            </div>
+        </div>
+        <div class="footer">by<a href="https://codepen.io/Enigma10/">  Enigma10</a></div>
+        <div class="time-config"><!--
+         --><div class="ui-control">
+                <button id="pomodoro-time-down" class="circle-button" type="button">
+                    <i class="fa fa-minus"></i>
+                </button>
+
+                <h3 id="pomodoro-time">25</h3>
+
+                <button id="pomodoro-time-up" class="circle-button" type="button">
+                    <i class="fa fa-plus"></i>
+                </button>
+            </div><!--
+         --><div class="ui-control">
+                <button id="break-time-down" class="circle-button" type="button">
+                    <i class="fa fa-minus"></i>
+                </button>
+
+                <h3 id="break-time">5</h3>
+
+                <button id="break-time-up" class="circle-button" type="button">
+                    <i class="fa fa-plus"></i>
+                </button>
+            </div><!--
+     --></div>
+    </div>
+
+    <script src="function.js"></script>
+</body>
+</html>

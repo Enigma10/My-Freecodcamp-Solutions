@@ -1,0 +1,30 @@
+//output: index.html
+doctype html
+html(lang="en")
+	head
+		meta(charset="utf-8")
+		title Random Quote Machine
+		meta(name="description", content="")
+		meta(name="author", content="")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		link(rel="stylesheet", href="style.min.css")
+		link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css")
+	body
+		.quote-box
+			.quote-text
+				i.fa.fa-quote-left
+				span#text Until lion doen not how to write , every story glorify hunter.
+			.quote-author
+				span#author My Fvrt
+			.buttons
+				a.button#tweet-quote(onclick='postIt(this.id)' title="Tweet this quote!" target="_blank")
+					i.fa.fa-twitter
+
+				button.button#new-quote(onclick='postIt(this.id)') New Quote
+		.footer by
+			a(href="https://codepen.io/Enigma10/")   Enigma10
+
+
+
+
+		script(src="app.js")

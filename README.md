@@ -1,6 +1,6 @@
 ## My-Freecodecamp-Solutions
 This repo contains my solution for fcc bonfire series and project.
-### Basic Algorithm script(Completed)
+### 1. Basic Algorithm script(Completed)
  * Reverse a string 
  * Factorialize a Number
  * Check for Palindromes
@@ -20,7 +20,7 @@ This repo contains my solution for fcc bonfire series and project.
 
 
 
-### Intermidate Algorithm script(Completed)
+### 2. Intermidate Algorithm script(Completed)
  * Sum All Numbers in a Range 
  * Diff Two Arrays  
  * Roman Numeral Converter 
@@ -45,7 +45,7 @@ This repo contains my solution for fcc bonfire series and project.
 
 
 
-### Advanced Algorithm script(Completed)
+### 3. Advanced Algorithm script(Completed)
  * Validate US Telephone Numbers 
  * Symmetric Difference  
  * Exact Change 
@@ -57,6 +57,16 @@ This repo contains my solution for fcc bonfire series and project.
  * Pairwise
  
 
-### Front-end Projects
+### 4. Front-end Projects
  * Tribute-Page
  * Portfolio-Page
+ * Random Qoute Machine
+ * Weather Api
+ * Wikipedia Api
+ * Twitch Api
+ * Calculator
+ * Pomodoro Clock
+ * https://codepen.io/Enigma10/pen/XMyNYq
+
+## [My Front-end Certificate](https://www.freecodecamp.com/enigma10/front-end-certification) 
+
