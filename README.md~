@@ -1,5 +1,6 @@
-## My-Freecodecamp-Solutions
+#My-Freecodecamp-Solutions
 This repo contains my solution for fcc bonfire series and project.
+## [My Front-end Certificate](https://www.freecodecamp.com/enigma10/front-end-certification) 
 ### 1. Basic Algorithm script(Completed)
  * Reverse a string 
  * Factorialize a Number
@@ -68,5 +69,4 @@ This repo contains my solution for fcc bonfire series and project.
  * Pomodoro Clock
  * https://codepen.io/Enigma10/pen/XMyNYq
 
-## [My Front-end Certificate](https://www.freecodecamp.com/enigma10/front-end-certification) 
 
